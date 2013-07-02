@@ -5,8 +5,6 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-# Devise for authentication
-gem 'devise' 
 
 # A compact database for development
 gem 'sqlite3'
@@ -43,3 +41,12 @@ gem 'jquery-rails'
 
 # Puma A fast and light web application server 
 gem 'puma'
+
+# Devise for authentication
+gem 'devise' 
+
+# Simple forms
+gem 'simple_form'
+
+# Turbo link
+gem 'turbolinks'
