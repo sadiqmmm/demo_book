@@ -40,7 +40,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 # Puma A fast and light web application server 
-gem 'puma'
+gem 'puma', '2.2.2'
 
 # Devise for authentication
 gem 'devise' 
@@ -50,3 +50,9 @@ gem 'simple_form'
 
 # Turbo link
 gem 'turbolinks'
+
+group :development do
+  gem "better_errors"
+  gem "binding_of_caller"
+  gem 'meta_request'
+end
