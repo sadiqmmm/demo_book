@@ -51,6 +51,10 @@ gem 'simple_form'
 # Turbo link
 gem 'turbolinks'
 
+# Jquery Turbo links
+
+gem 'jquery-turbolinks'
+
 group :development do
   gem "better_errors"
   gem "binding_of_caller"
