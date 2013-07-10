@@ -40,7 +40,7 @@ gem 'jquery-rails'
 # gem 'debugger'
 
 # Puma A fast and light web application server 
-gem 'puma', '2.2.2'
+gem 'puma', '2.3.2'
 
 # Devise for authentication
 gem 'devise' 
