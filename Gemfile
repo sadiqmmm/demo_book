@@ -5,11 +5,7 @@ gem 'rails', '3.2.13'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-
-# A compact database for development
-gem 'sqlite3'
-
-
+ 
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -52,11 +48,18 @@ gem 'simple_form'
 gem 'turbolinks'
 
 # Jquery Turbo links
-
 gem 'jquery-turbolinks'
+ 
+group :development, :test do
+	# A compact database for development
+	gem 'sqlite3'
 
-group :development do
-  gem "better_errors"
-  gem "binding_of_caller"
-  gem 'meta_request'
+	gem "better_errors"
+	gem "binding_of_caller"
+	gem 'meta_request'
 end
+
+group :production do
+ gem 'pg'
+end
+
